@@ -1,0 +1,7 @@
+把n = 4 6 8的所有解用for loop先解出來存在array內
+
+for loop用兩層 外層i跑n/2~(n/2)*10 內層j跑n/2~(n/2)*10的偶數
+遇到i,j尾數都是0直接跳過
+用vector X 將 i,j 各位數儲存
+用vector Y 將 i*j 各位數儲存
+排序後若X == Y 則將其用vector result儲存

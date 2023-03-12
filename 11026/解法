@@ -1,0 +1,13 @@
+以recursive的方式，可以推導出以下公式: 
+
+F(n,k): 
+
+F(1,1) = 1 
+
+F(n,1) = F(n-1,1) + n 
+
+F(n,i) = F(n-1,I-1)*n (n > I > 1) 
+
+F(n,n) = f(n-1,n-1)*n 
+
+用recursive即可解題，只需注意overflow
